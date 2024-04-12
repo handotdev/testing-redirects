@@ -5,6 +5,10 @@
       "destination": "/api-reference"
     },
     {
+      "source": "/api/",
+      "destination": "/api-reference/"
+    },
+    {
       "source": "/api/:path*",
       "destination": "/api-reference/:path*"
     }
