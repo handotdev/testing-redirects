@@ -1,14 +1,12 @@
 {
-  "redirects": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://kitsai-74.mintlify.app/api-reference/:path*"
-    }
-  ],
   "rewrites": [
     {
       "source": "/",
       "destination": "https://kitsai-74.mintlify.app"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://kitsai-74.mintlify.app/api-reference/:path*"
     },
     {
       "source": "/:path*",
