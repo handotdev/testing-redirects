@@ -7,6 +7,10 @@
   ],
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://kitsai-74.mintlify.app"
+    },
+    {
       "source": "/:path*",
       "destination": "https://kitsai-74.mintlify.app/:path*"
     }
